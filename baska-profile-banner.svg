@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Lathif Baska - Baska Pro">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="55%" stop-color="#101b2d"/>
+      <stop offset="100%" stop-color="#07111d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="50%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#dbeafe" stroke-opacity=".045" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+
+  <!-- abstract circuit lines -->
+  <g fill="none" stroke="#7dd3fc" stroke-opacity=".22" stroke-width="2">
+    <path d="M0 78H120L162 120H278"/>
+    <path d="M0 242H92L142 192H262"/>
+    <path d="M1200 74H1082L1036 120H930"/>
+    <path d="M1200 242H1104L1058 196H950"/>
+  </g>
+
+  <g fill="#7dd3fc" fill-opacity=".55">
+    <circle cx="162" cy="120" r="4"/>
+    <circle cx="142" cy="192" r="4"/>
+    <circle cx="1036" cy="120" r="4"/>
+    <circle cx="1058" cy="196" r="4"/>
+  </g>
+
+  <!-- terminal mark -->
+  <g transform="translate(82 78)">
+    <rect width="176" height="164" rx="22" fill="#09101b" stroke="#93c5fd" stroke-opacity=".35"/>
+    <circle cx="28" cy="25" r="5" fill="#fb7185"/>
+    <circle cx="47" cy="25" r="5" fill="#fbbf24"/>
+    <circle cx="66" cy="25" r="5" fill="#34d399"/>
+    <path d="M38 75l25 22-25 22" fill="none" stroke="url(#accent)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+    <path d="M82 121h48" stroke="#e0f2fe" stroke-width="8" stroke-linecap="round" opacity=".9"/>
+  </g>
+
+  <g font-family="Segoe UI, Inter, Arial, sans-serif">
+    <text x="320" y="98" font-size="22" fill="#93a4b8" letter-spacing="4">BASKA // PRO</text>
+    <text x="320" y="158" font-size="54" font-weight="700" fill="#f8fafc">Lathif Baska</text>
+    <rect x="320" y="184" width="520" height="5" rx="2.5" fill="url(#accent)"/>
+    <text x="320" y="226" font-size="21" fill="#cbd5e1" letter-spacing="2">BUILD • AUTOMATE • OPERATE • IMPROVE</text>
+  </g>
+
+  <g transform="translate(930 138)">
+    <circle r="74" fill="none" stroke="#60a5fa" stroke-opacity=".18" stroke-width="2"/>
+    <circle r="54" fill="none" stroke="#5eead4" stroke-opacity=".24" stroke-width="2" stroke-dasharray="8 8"/>
+    <circle r="33" fill="none" stroke="#a78bfa" stroke-opacity=".33" stroke-width="2"/>
+    <circle r="8" fill="#7dd3fc" filter="url(#glow)"/>
+  </g>
+</svg>
