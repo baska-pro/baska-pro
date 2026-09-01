@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="190" viewBox="0 0 620 190" role="img" aria-label="GriyaKas project card">
+  <rect x="1" y="1" width="618" height="188" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+  <rect x="1" y="1" width="6" height="188" rx="3" fill="#58a6ff"/>
+  <g font-family="Segoe UI, Inter, Arial, sans-serif">
+    <text x="28" y="46" font-size="25" font-weight="700" fill="#f0f6fc">GriyaKas</text>
+    <rect x="492" y="22" width="99" height="28" rx="14" fill="#12233d" stroke="#1f6feb"/>
+    <text x="541.5" y="41" font-size="12" text-anchor="middle" fill="#79c0ff">FINANCE PWA</text>
+    <text x="28" y="82" font-size="15" fill="#c9d1d9">Local-first personal &amp; family finance app with budgets, debts,</text>
+    <text x="28" y="105" font-size="15" fill="#c9d1d9">savings goals, recurring bills, backup and optional cloud sync.</text>
+    <g font-size="12" fill="#8b949e">
+      <text x="28" y="151">TypeScript</text>
+      <text x="116" y="151">React</text>
+      <text x="169" y="151">Vite</text>
+      <text x="209" y="151">PWA</text>
+      <text x="250" y="151">Supabase</text>
+    </g>
+    <text x="28" y="174" font-size="12" fill="#58a6ff">github.com/baska-pro/griya-kas →</text>
+  </g>
+</svg>
