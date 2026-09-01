@@ -3,12 +3,12 @@
 </p>
 
 <p align="center">
-  <strong>IT • Automation • Systems • Open Source</strong>
+  <strong>Software • Automation • Systems • Open Source</strong>
 </p>
 
 <p align="center">
-  I build practical software, Windows utilities, web applications, automation, bots, and server tools<br>
-  with a focus on usability, maintainability, and real-world workflows.
+  I build practical Windows utilities, web applications, automation, bots, and self-hosted tools<br>
+  with a focus on real-world workflows, maintainability, reliability, and usability.
 </p>
 
 <p align="center">
@@ -17,6 +17,14 @@
   </a>
   <img src="https://komarev.com/ghpvc/?username=baska-pro&label=PROFILE+VIEWS&style=for-the-badge" alt="Profile views">
   <img src="https://img.shields.io/github/followers/baska-pro?label=FOLLOWERS&style=for-the-badge&logo=github" alt="GitHub followers">
+</p>
+
+<p align="center">
+  <a href="#featured-projects">Featured Projects</a> •
+  <a href="#technology-stack">Technology Stack</a> •
+  <a href="#what-i-build">What I Build</a> •
+  <a href="#development-activity">Activity</a> •
+  <a href="#current-focus">Current Focus</a>
 </p>
 
 ---
@@ -31,118 +39,128 @@ $ based_in
 Indonesia
 
 $ focus
-Windows tools • automation • web apps • bots • server management • self-hosted systems
+Windows tools • web apps • automation • bots • server management • self-hosted systems
 
-$ approach
+$ principles
 Useful > flashy
 Simple > fragile
 Automate what repeats
 Understand what you operate
+Build for real-world use
 ```
 
-I enjoy turning repetitive or complicated workflows into practical tools that are easier to use, easier to maintain, and useful beyond a single experiment.
+I turn repetitive, manual, or complicated workflows into practical software that can be used, maintained, and improved beyond a single experiment.
 
 ---
 
-## What I Work With
+## Featured Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Application Development
+### [GriyaKas](https://github.com/baska-pro/griya-kas)
 
-- Python applications
-- Flask web applications
-- FastAPI backends
-- Google Apps Script
-- JavaScript / HTML / CSS
-- PowerShell utilities
-- Windows desktop tools
-- REST API integrations
+Local-first personal and family finance PWA with budgets, debt tracking, savings goals, recurring bills, backup/restore, and optional Google Sheets or Supabase synchronization.
+
+`TypeScript` `React` `Vite` `PWA` `Supabase`
 
 </td>
 <td width="50%" valign="top">
 
-### Automation & Bots
+### [Server Control Suite](https://github.com/baska-pro/server-control-suite)
 
-- Telegram bots
-- WhatsApp bots & integrations
-- Scheduled automation
-- Background services
-- Workflow automation
-- Notification systems
-- API-based integrations
+Cross-platform remote management suite for Linux and Windows with Telegram control, web dashboard, monitoring, file/process management, Docker, services, alerts, and automation.
+
+`Python` `Flask` `Linux` `Windows` `Docker`
 
 </td>
 </tr>
-
 <tr>
 <td width="50%" valign="top">
 
-### Data & Storage
+### [Windows Shortcut Control](https://github.com/baska-pro/windows-shortcut-control)
 
-- SQLite
-- PostgreSQL
-- Google Sheets
-- Spreadsheet-based databases
-- JSON storage
-- File-based data systems
-- Data synchronization
+Portable PowerShell/WPF productivity launcher and Windows control center for shortcuts, system tools, monitoring, backup, and automation.
+
+`PowerShell` `WPF` `Windows` `Automation`
 
 </td>
 <td width="50%" valign="top">
 
-### Systems & Infrastructure
+### [Siskamling Digital](https://github.com/baska-pro/siskamling-digital)
 
-- Windows
-- Linux
-- Termux / Android
-- Docker
-- Cloud servers
-- Self-hosted services
-- Cloudflare
-- Process monitoring
-- Remote administration
+Digital neighborhood security and patrol management PWA with attendance, GPS patrols, chat, SOS, Web Push, reports, backups, and administration.
+
+`Python` `FastAPI` `PWA` `SQLite` `Web Push`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [RemoteDroid Control](https://github.com/baska-pro/remotedroid-control)
+
+Telegram-based Android and Termux monitoring and utilities bot with secure access, diagnostics, device information, and button-driven controls.
+
+`Python` `Telegram Bot` `Android` `Termux`
+
+</td>
+<td width="50%" valign="top">
+
+### [Windows App Locker](https://github.com/baska-pro/windows-app-locker)
+
+User-level Windows application locker with PIN protection, system tray integration, per-user autostart, diagnostics, and owner-only Telegram controls.
+
+`Python` `Windows` `Security` `Telegram Bot`
 
 </td>
 </tr>
 </table>
 
+<p align="center">
+  <a href="https://github.com/baska-pro?tab=repositories"><strong>View all public repositories →</strong></a>
+</p>
+
 ---
 
-## Technology Ecosystem
+## Technology Stack
 
 ### Languages & Scripting
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Google_Apps_Script-4285F4?style=flat-square&logo=googleappsscript&logoColor=white" alt="Google Apps Script">
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell">
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash">
+  <img src="https://img.shields.io/badge/Google_Apps_Script-4285F4?style=flat-square&logo=googleappsscript&logoColor=white" alt="Google Apps Script">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
 </p>
 
-### Backend & Web
+### Web & Application Development
 
 <p>
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
   <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask">
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" alt="Progressive Web App">
   <img src="https://img.shields.io/badge/REST_API-02569B?style=flat-square" alt="REST API">
 </p>
 
-### Data
+### Data & Cloud
 
 <p>
   <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite">
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase">
   <img src="https://img.shields.io/badge/Google_Sheets-34A853?style=flat-square&logo=googlesheets&logoColor=white" alt="Google Sheets">
   <img src="https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white" alt="JSON">
 </p>
 
-### Platforms & Infrastructure
+### Systems & Infrastructure
 
 <p>
   <img src="https://img.shields.io/badge/Windows-0078D4?style=flat-square&logo=windows11&logoColor=white" alt="Windows">
@@ -154,122 +172,79 @@ I enjoy turning repetitive or complicated workflows into practical tools that ar
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
 </p>
 
-### Bots & Integrations
+### Automation & Integrations
 
 <p>
   <img src="https://img.shields.io/badge/Telegram_Bot-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram Bot">
-  <img src="https://img.shields.io/badge/WhatsApp_Automation-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp Automation">
+  <img src="https://img.shields.io/badge/Web_Push-5A0FC8?style=flat-square" alt="Web Push">
   <img src="https://img.shields.io/badge/API_Integration-6B7280?style=flat-square" alt="API Integration">
+  <img src="https://img.shields.io/badge/Task_Automation-111827?style=flat-square" alt="Task Automation">
 </p>
-
----
-
-## AI-Assisted Development
-
-I use AI as part of my development workflow for prototyping, debugging, architecture exploration, code generation, refactoring, and iterative improvement.
-
-<p>
-  <img src="https://img.shields.io/badge/Google_AI_Studio-4285F4?style=flat-square&logo=google&logoColor=white" alt="Google AI Studio">
-  <img src="https://img.shields.io/badge/AI_Assisted_Development-111827?style=flat-square" alt="AI Assisted Development">
-</p>
-
-```text
-Idea / Problem
-      ↓
-Architecture & Prototype
-      ↓
-AI-assisted Development
-      ↓
-Manual Review & Testing
-      ↓
-Integration
-      ↓
-Real-world Usage
-      ↓
-Iterate & Improve
-```
 
 ---
 
 ## What I Build
 
-```text
-Desktop & Windows Tools
-├── PowerShell GUI applications
-├── Windows utilities
-├── System management tools
-└── Workflow helpers
+<table>
+<tr>
+<td width="33%" valign="top">
 
-Web Applications
-├── Flask / Python web apps
-├── Google Apps Script web apps
-├── Dashboards
-├── Management systems
-└── Responsive browser tools
+### Desktop & Windows
 
-Automation
-├── Telegram bots
-├── WhatsApp integrations
-├── Scheduled jobs
-├── Notifications
-└── Workflow automation
+- PowerShell/WPF utilities
+- Python desktop tools
+- System management tools
+- Launchers and workflow helpers
+- Background services
 
-Data Systems
-├── Google Sheets
-├── SQLite
-├── PostgreSQL
-├── JSON / file storage
-└── Data synchronization
+</td>
+<td width="33%" valign="top">
 
-Server & Infrastructure
-├── Linux
-├── Docker
-├── Cloud servers
-├── Self-hosted services
-├── Monitoring
-└── Remote administration
+### Web & Data
 
-Mobile / Portable Environment
-└── Termux & Android-based tooling
-```
+- React / TypeScript PWAs
+- Flask and FastAPI applications
+- Google Apps Script tools
+- Dashboards and admin systems
+- SQLite/PostgreSQL-backed apps
+
+</td>
+<td width="33%" valign="top">
+
+### Automation & Systems
+
+- Telegram bots
+- Scheduled automation
+- Notifications and Web Push
+- Linux/Docker management
+- Self-hosted services
+- Remote administration
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Build Philosophy
+## Development Principles
 
 ```text
 01. Solve a real problem first.
-02. Keep the interface understandable.
+02. Keep interfaces understandable.
 03. Automate repetitive work.
 04. Prefer maintainable solutions over unnecessary complexity.
-05. Treat security, backups, and failure handling as features.
-06. Improve continuously after real-world use.
+05. Treat security, backups, logging, and failure handling as features.
+06. Test in real environments, not only ideal conditions.
+07. Improve continuously after real-world use.
 ```
 
----
+### Development Workflow
 
-## Featured Projects
+```text
+Problem → Design → Prototype → Build → Review → Test → Deploy → Observe → Improve
+```
 
-> Public projects will be added here as they are released.
-
-<!--
-Example:
-
-### Windows Shortcut Control
-A PowerShell-based GUI utility for managing Windows shortcuts and common system tools.
-
-[Repository](https://github.com/baska-pro/windows-shortcut-control)
-
-### Windows App Locker
-A Windows utility for controlling access to selected applications and web resources.
-
-[Repository](https://github.com/baska-pro/windows-app-locker)
-
-### Server Control
-A server administration and monitoring toolkit with automation and remote-control features.
-
-[Repository](https://github.com/baska-pro/server-control)
--->
+AI-assisted tooling is part of my workflow for prototyping, debugging, architecture exploration, code generation, and refactoring. Generated work is reviewed, tested, integrated, and iterated before being treated as a finished solution.
 
 ---
 
@@ -284,28 +259,25 @@ A server administration and monitoring toolkit with automation and remote-contro
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=baska-pro&theme=github_dark" height="165" alt="Most commit language">
 </p>
 
-> GitHub activity represents only my public repositories. Many of my projects are developed locally, on servers, Google Apps Script, AI-assisted environments, and private infrastructure.
+> GitHub activity represents only public repository activity. Some development also happens locally, on servers, in Google Apps Script projects, and in private infrastructure.
 
 ---
 
-## Current Direction
+## Current Focus
 
-- Publishing practical open-source tools
-- Improving Windows and PowerShell utilities
-- Building web-based management applications
-- Developing Telegram and WhatsApp automation
-- Building Google Apps Script and spreadsheet-backed systems
-- Developing Python, Flask, SQLite, and server-side tools
-- Exploring cloud, self-hosted services, and AI-assisted development
-- Converting personal and internal tools into reusable public projects
+- Publishing and maintaining practical open-source tools
+- Improving Windows, PowerShell, and Python utilities
+- Building local-first and offline-capable web applications
+- Developing React, TypeScript, Flask, and FastAPI projects
+- Building Telegram, notification, and workflow automation
+- Improving server administration and self-hosted systems
+- Turning internal tools into reusable public projects
 
 ---
 
 ## Project Communication
 
-For bugs, feature requests, and technical discussions, use the **Issues** section of the relevant repository.
-
-This keeps project history searchable and useful for other users.
+For bugs, feature requests, and technical discussions, use the **Issues** section of the relevant repository. This keeps project history searchable and useful to other users.
 
 ---
 
