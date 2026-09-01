@@ -2,92 +2,111 @@
   <img src="./assets/baska-profile-banner.svg" width="100%" alt="Lathif Baska — Baska Pro">
 </p>
 
-<h3 align="center">Practical software for real workflows.</h3>
+<h2 align="center">Building useful software for real workflows</h2>
 
 <p align="center">
   Windows utilities · Web applications · Automation · Bots · Self-hosted systems
 </p>
 
 <p align="center">
-  <a href="https://github.com/baska-pro?tab=repositories">
-    <img src="https://img.shields.io/badge/OPEN_SOURCE-Projects-58A6FF?style=flat-square&logo=github&logoColor=white" alt="Open source projects">
-  </a>
-  <img src="https://img.shields.io/badge/FOCUS-Automation_&_Systems-2EA043?style=flat-square" alt="Automation and Systems">
-  <img src="https://komarev.com/ghpvc/?username=baska-pro&label=PROFILE+VIEWS&style=flat-square&color=6E7681" alt="Profile views">
-  <img src="https://img.shields.io/github/followers/baska-pro?label=FOLLOWERS&style=flat-square&logo=github&color=6E7681" alt="GitHub followers">
+  <a href="https://github.com/baska-pro?tab=repositories"><img src="https://img.shields.io/badge/Public_Projects-181717?style=flat-square&logo=github&logoColor=white" alt="Public Projects"></a>
+  <img src="https://img.shields.io/badge/Focus-Automation_%26_Systems-0969DA?style=flat-square" alt="Focus">
+  <img src="https://img.shields.io/badge/Approach-Simple_%C2%B7_Reliable_%C2%B7_Maintainable-1F883D?style=flat-square" alt="Approach">
 </p>
 
 <p align="center">
-  <a href="#featured-projects">Projects</a>&nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="#technology-stack">Stack</a>&nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="#what-i-build">What I Build</a>&nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="#development-activity">Activity</a>&nbsp;&nbsp;•&nbsp;&nbsp;
+  I turn repetitive, manual, and complicated workflows into practical software that is easier to use, maintain, and operate.
+</p>
+
+<p align="center">
+  <a href="#featured-projects">Projects</a> ·
+  <a href="#technology-stack">Stack</a> ·
+  <a href="#what-i-build">What I Build</a> ·
+  <a href="#development-activity">Activity</a> ·
   <a href="#current-focus">Current Focus</a>
 </p>
 
-<br>
+---
 
-<table align="center">
+## Featured Projects
+
+<table>
 <tr>
-<td align="center" width="33%">
-  <sub>FOCUS</sub><br>
-  <strong>Automation & Systems</strong>
+<td width="50%" valign="top">
+
+### 💰 [GriyaKas](https://github.com/baska-pro/griya-kas)
+
+Local-first personal and family finance PWA for budgets, transactions, debt tracking, savings goals, recurring bills, backup/restore, and optional cloud sync.
+
+`TypeScript` `React` `Vite` `PWA` `Supabase`
+
+[View repository →](https://github.com/baska-pro/griya-kas)
+
 </td>
-<td align="center" width="33%">
-  <sub>BUILD</sub><br>
-  <strong>Useful Software</strong>
+<td width="50%" valign="top">
+
+### 🖥️ [Server Control Suite](https://github.com/baska-pro/server-control-suite)
+
+Cross-platform remote management suite for Linux and Windows with Telegram control, web dashboard, monitoring, Docker, services, alerts, and automation.
+
+`Python` `Flask` `Linux` `Windows` `Docker`
+
+[View repository →](https://github.com/baska-pro/server-control-suite)
+
 </td>
-<td align="center" width="33%">
-  <sub>APPROACH</sub><br>
-  <strong>Simple · Reliable · Maintainable</strong>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ⚡ [Windows Shortcut Control](https://github.com/baska-pro/windows-shortcut-control)
+
+Portable PowerShell/WPF productivity launcher and Windows control center for shortcuts, system tools, monitoring, backup, and automation.
+
+`PowerShell` `WPF` `Windows` `Automation`
+
+[View repository →](https://github.com/baska-pro/windows-shortcut-control)
+
+</td>
+<td width="50%" valign="top">
+
+### 🛡️ [Siskamling Digital](https://github.com/baska-pro/siskamling-digital)
+
+Neighborhood security and patrol management PWA with attendance, GPS patrols, chat, SOS, Web Push, reports, backups, and administration.
+
+`Python` `FastAPI` `PWA` `SQLite` `Web Push`
+
+[View repository →](https://github.com/baska-pro/siskamling-digital)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📱 [RemoteDroid Control](https://github.com/baska-pro/remotedroid-control)
+
+Telegram-based Android and Termux monitoring and utilities bot with secure access, diagnostics, device information, and button-driven controls.
+
+`Python` `Telegram Bot` `Android` `Termux`
+
+[View repository →](https://github.com/baska-pro/remotedroid-control)
+
+</td>
+<td width="50%" valign="top">
+
+### 🔐 [Windows App Locker](https://github.com/baska-pro/windows-app-locker)
+
+User-level Windows application locker with PIN protection, tray integration, per-user autostart, diagnostics, and owner-only Telegram controls.
+
+`Python` `Windows` `Security` `Telegram Bot`
+
+[View repository →](https://github.com/baska-pro/windows-app-locker)
+
 </td>
 </tr>
 </table>
 
 <p align="center">
-  I turn repetitive, manual, or complicated workflows into software that is easier to use,<br>
-  easier to maintain, and designed for real-world operation.
-</p>
-
----
-
-<h2 align="center">Featured Projects</h2>
-
-<p align="center">
-  Selected public projects across Windows, web, automation, remote management, and self-hosted systems.
-</p>
-
-<p align="center">
-  <a href="https://github.com/baska-pro/griya-kas">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=baska-pro&repo=griya-kas&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=2EA043" alt="GriyaKas">
-  </a>
-  <a href="https://github.com/baska-pro/server-control-suite">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=baska-pro&repo=server-control-suite&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=2EA043" alt="Server Control Suite">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/baska-pro/windows-shortcut-control">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=baska-pro&repo=windows-shortcut-control&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=2EA043" alt="Windows Shortcut Control">
-  </a>
-  <a href="https://github.com/baska-pro/siskamling-digital">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=baska-pro&repo=siskamling-digital&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=2EA043" alt="Siskamling Digital">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/baska-pro/remotedroid-control">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=baska-pro&repo=remotedroid-control&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=2EA043" alt="RemoteDroid Control">
-  </a>
-  <a href="https://github.com/baska-pro/windows-app-locker">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=baska-pro&repo=windows-app-locker&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=2EA043" alt="Windows App Locker">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/baska-pro?tab=repositories">
-    <img src="https://img.shields.io/badge/VIEW_ALL_REPOSITORIES-181717?style=for-the-badge&logo=github&logoColor=white" alt="View all repositories">
-  </a>
+  <a href="https://github.com/baska-pro?tab=repositories"><strong>Browse all repositories →</strong></a>
 </p>
 
 ---
